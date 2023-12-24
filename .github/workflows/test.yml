@@ -1,4 +1,4 @@
-name: test
+name: est
 on: push
 jobs:
   test:
