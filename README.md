@@ -1,9 +1,9 @@
-![test] (https://github.com/ryuyanakamura2022/robosys2023_ROS2_mypkg/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/ryuyanakamura2022/robosys2023_ROS2_mypkg/actions/workflows/test.yml/badge.svg)
 
 # robosys2023_ROS2_mypkg
 ロボットシステム学の課題2
 
-##
+## テスト環境
 * ubuntu 22.04
 
 ## ライセンス 
