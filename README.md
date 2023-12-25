@@ -4,7 +4,7 @@
 このリポジトリはロボットシステム学の講義課題2用のものです。
 
 # 使用方法
-##1,talkerとlistenerを別々の端末で使用する場合
+## 1,talkerとlistenerを別々の端末で使用する場合
 talker側の実行コマンド
 ```
 端末1$ ros2 run mypkg talker
@@ -14,7 +14,7 @@ listner側の実行コマンド
 端末2$ ros2 run mypkg listener
 ```
 以上のコードをそれぞれの端末に入力
-##実行結果1
+## 実行結果1
 ```
 [INFO] [1703512866.347562333] [listener]: Listen: 0
 [INFO] [1703512866.815362721] [listener]: Listen: 1
@@ -31,13 +31,13 @@ listner側の実行コマンド
 ```
 talker側のノードは数値をカウントするものでlistener側のノードはその数値を表示するものである。
 
-##2, talkerとlistenerを同じ端末で表示する方法
+## 2, talkerとlistenerを同じ端末で表示する方法
 ```
 端末$ ros2 launch mypkg talk_listen.launch.py
 ```
 端末に入力する。
 
-##実行結果2
+## 実行結果2
 ```
 [listener-2] [INFO] [1703513557.621988092] [listener]: Listen: 0
 [listener-2] [INFO] [1703513558.102224179] [listener]: Listen: 1
