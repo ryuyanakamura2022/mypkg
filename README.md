@@ -75,6 +75,7 @@ listener側では以下の表示になる。
 ## 必要なソフトウェア
 * ubunte
 * python(python 3.8.10)
+* ROS2
 
 ## テスト環境
 * ubuntu 22.04 
