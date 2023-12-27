@@ -46,7 +46,7 @@
 表示は無限に続くので[ctrl + c]で強制的に終了させる。
 
 ## 2. talkerとlistenerを同じ端末で表示する方法
-端末を1つ開いておく。
+端末は1つ開いておく。
 
 ```
 端末$ ros2 launch mypkg talk_listen.launch.py
