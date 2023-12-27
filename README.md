@@ -19,18 +19,16 @@ talker側の実行コマンド
 ```
 端末1$ ros2 run mypkg talker
 ```
+(実行結果)
+```
+```
+実行結果は何も表示されない。
+
 listner側の実行コマンド
 ```
 端末2$ ros2 run mypkg listener
 ```
-以上のコマンドをそれぞれの端末に入力して、実行をする。
-## 実行結果1
-talker側では以下の表示になる。
-```
-```
-表示は何もされない。
-
-listener側では以下の表示になる。
+(実行結果)
 ```
 [INFO] [1703512866.347562333] [listener]: Listen: 0
 [INFO] [1703512866.815362721] [listener]: Listen: 1
@@ -53,9 +51,7 @@ listener側では以下の表示になる。
 ```
 端末$ ros2 launch mypkg talk_listen.launch.py
 ```
-端末に入力して実行する。
-
-## 実行結果2
+(実行結果)
 ```
 [listener-2] [INFO] [1703513557.621988092] [listener]: Listen: 0
 [listener-2] [INFO] [1703513558.102224179] [listener]: Listen: 1
@@ -74,7 +70,7 @@ listener側では以下の表示になる。
 
 ## 必要なソフトウェア
 * python
-* ROS2
+* ROS2(foxy,humble)
 
 ## テスト環境
 * Ubuntu (22.04) 
