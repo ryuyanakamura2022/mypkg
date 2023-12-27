@@ -74,7 +74,7 @@
 
 ## 必要なソフトウェア
 * python
-* ROS2(foxy,humble)
+* ROS2(Foxy,Humble)
 
 ## テスト環境
 * Ubuntu (22.04) 
