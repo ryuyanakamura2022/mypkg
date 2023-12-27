@@ -73,7 +73,7 @@
 こちらも1と同様に終了させたいときは[ctrl + c]を入力する。
 
 ## 必要なソフトウェア
-* python
+* Python
 * ROS2(Foxy,Humble)
 
 ## テスト環境
